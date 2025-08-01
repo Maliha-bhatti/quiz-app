@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🧠 Web Dev Quiz</h1>
+    <div class="quiz-header">
+      <div id="category">Category: General</div>
+      <div id="timer">Time: 30</div>
+    </div>
+    <h2 id="question">Loading...</h2>
+    <div id="answer-buttons"></div>
+    <p id="explanation" class="explanation"></p>
+    <button id="next-btn" class="hide">Next</button>
+    <div id="result" class="hide">
+      <h2 id="score">Your score: 0</h2>
+      <button onclick="startQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
